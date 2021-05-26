@@ -1,0 +1,79 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: rgb(39, 37, 37);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    margin: 2px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 2px;
+}
+
+#intro {
+    display: flex;
+}
+
+body {
+    background-color: rgb(247, 211, 211);
+}
+
+nav {
+    margin: 10px;
+    text-align: center;
+
+}
+
+a:hover {
+    background-color: gray;
+    color: rgb(247, 211, 211);
+}
+
+li {
+    display: inline;
+    padding: 2px;
+
+}
+
+.edu {
+    display: grid;
+
+}
+
+
+
+span {
+    font-weight: bold;
+}
+
+img {
+
+    height: 200px;
+    width: 150px;
+    padding: 0;
+    margin: 3px;
+    border-radius: 2rem;
+    border: solid 1px gray;
+    margin-top: -10px;
+}
+
+button {
+    background-color: rgb(223, 147, 160);
+    color: white;
+    margin-bottom: 8px;
+    border-radius: 2rem;
+}
+
+button:hover {
+    background-color: white;
+
+}
